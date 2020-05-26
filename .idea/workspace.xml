@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9305b0c8-6edd-4874-8f27-d880543d4ca7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1c2Bz694MmXLb3aFyHrKbo3UInT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\blog\src\main\resources" />
+      <recent name="F:\blog\src\main\resources\templates\error" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BlogApplication">
+    <configuration name="blog.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/templates/blog.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/templates/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/templates/admin/login.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="tags.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/templates/tags.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="types.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/templates/types.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.blog.BlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.login.html" />
+        <item itemvalue="JavaScript Debug.blog.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.types.html" />
+        <item itemvalue="JavaScript Debug.tags.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9305b0c8-6edd-4874-8f27-d880543d4ca7" name="Default Changelist" comment="" />
+      <created>1589717066876</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589717066876</updated>
+      <workItem from="1589717074259" duration="4930000" />
+      <workItem from="1589768943798" duration="2910000" />
+      <workItem from="1589802454421" duration="3368000" />
+      <workItem from="1590064149940" duration="2933000" />
+      <workItem from="1590235945498" duration="4832000" />
+      <workItem from="1590288296864" duration="3636000" />
+      <workItem from="1590329836030" duration="4482000" />
+      <workItem from="1590497051984" duration="2117000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="946" y="198" key="#Web_Browsers" timestamp="1590330066910">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="946" y="198" key="#Web_Browsers/0.0.1536.824@0.0.1536.824" timestamp="1590330066910" />
+    <state x="957" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1590332790829">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="957" y="140" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590332790829" />
+    <state width="1493" height="37" key="GridCell.Tab.0.bottom" timestamp="1590334322177">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="37" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590334322177" />
+    <state width="1493" height="37" key="GridCell.Tab.0.center" timestamp="1590334322177">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="37" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590334322177" />
+    <state width="1493" height="37" key="GridCell.Tab.0.left" timestamp="1590334322177">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="37" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590334322177" />
+    <state width="1493" height="37" key="GridCell.Tab.0.right" timestamp="1590334322177">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="37" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590334322177" />
+    <state width="1493" height="37" key="GridCell.Tab.1.bottom" timestamp="1590334322178">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="37" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590334322178" />
+    <state width="1493" height="37" key="GridCell.Tab.1.center" timestamp="1590334322177">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="37" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590334322177" />
+    <state width="1493" height="37" key="GridCell.Tab.1.left" timestamp="1590334322177">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="37" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590334322177" />
+    <state width="1493" height="37" key="GridCell.Tab.1.right" timestamp="1590334322178">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="37" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590334322178" />
+    <state x="349" y="147" key="IDE.errors.dialog" timestamp="1590240374806">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="147" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1590240374806" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/blog$BlogApplication.ic" NAME="BlogApplication Coverage Results" MODIFIED="1590332913130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
