@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9305b0c8-6edd-4874-8f27-d880543d4ca7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/blog-dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-dev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springboot/blog/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springboot/blog/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springboot/blog/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springboot/blog/service/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,13 +25,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1c2Bz694MmXLb3aFyHrKbo3UInT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -38,7 +47,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.7491369" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -47,6 +59,34 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.BlogApplication">
+    <configuration name="MD5Utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springboot.blog.util.MD5Utils" />
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.blog.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.blog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springboot.blog" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.blog.BlogApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="blog.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/templates/blog.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -54,12 +94,6 @@
       <method v="2" />
     </configuration>
     <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/templates/admin/login.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="tags.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/templates/tags.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="types.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/templates/types.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -71,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BlogApplicationTests" />
+        <item itemvalue="Application.MD5Utils" />
         <item itemvalue="JavaScript Debug.login.html" />
         <item itemvalue="JavaScript Debug.blog.html" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.types.html" />
-        <item itemvalue="JavaScript Debug.tags.html" />
       </list>
     </recent_temporary>
   </component>
@@ -96,7 +130,9 @@
       <workItem from="1590235945498" duration="4832000" />
       <workItem from="1590288296864" duration="3636000" />
       <workItem from="1590329836030" duration="4482000" />
-      <workItem from="1590497051984" duration="2117000" />
+      <workItem from="1590497051984" duration="4125000" />
+      <workItem from="1590501222278" duration="1180000" />
+      <workItem from="1590502564172" duration="1248000" />
     </task>
     <servers />
   </component>
@@ -108,46 +144,73 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="946" y="198" key="#Web_Browsers/0.0.1536.824@0.0.1536.824" timestamp="1590330066910" />
-    <state x="957" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1590332790829">
+    <state x="957" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1590500265248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="957" y="140" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590332790829" />
-    <state width="1493" height="37" key="GridCell.Tab.0.bottom" timestamp="1590334322177">
+    <state x="957" y="140" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590500265248" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1590503785733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="37" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590334322177" />
-    <state width="1493" height="37" key="GridCell.Tab.0.center" timestamp="1590334322177">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590503785733" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1590503785733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="37" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590334322177" />
-    <state width="1493" height="37" key="GridCell.Tab.0.left" timestamp="1590334322177">
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590503785733" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1590503785732">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="37" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590334322177" />
-    <state width="1493" height="37" key="GridCell.Tab.0.right" timestamp="1590334322177">
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590503785732" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1590503785733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="37" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590334322177" />
-    <state width="1493" height="37" key="GridCell.Tab.1.bottom" timestamp="1590334322178">
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590503785733" />
+    <state width="1493" height="208" key="GridCell.Tab.1.bottom" timestamp="1590503785734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="37" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590334322178" />
-    <state width="1493" height="37" key="GridCell.Tab.1.center" timestamp="1590334322177">
+    <state width="1493" height="208" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590503785734" />
+    <state width="1493" height="208" key="GridCell.Tab.1.center" timestamp="1590503785733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="37" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590334322177" />
-    <state width="1493" height="37" key="GridCell.Tab.1.left" timestamp="1590334322177">
+    <state width="1493" height="208" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590503785733" />
+    <state width="1493" height="208" key="GridCell.Tab.1.left" timestamp="1590503785733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="37" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590334322177" />
-    <state width="1493" height="37" key="GridCell.Tab.1.right" timestamp="1590334322178">
+    <state width="1493" height="208" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590503785733" />
+    <state width="1493" height="208" key="GridCell.Tab.1.right" timestamp="1590503785733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="37" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590334322178" />
+    <state width="1493" height="208" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590503785733" />
     <state x="349" y="147" key="IDE.errors.dialog" timestamp="1590240374806">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="147" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1590240374806" />
+    <state x="351" y="0" key="SettingsEditor" timestamp="1590502401050">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="351" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590502401050" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1590501468100">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1590501468100" />
+    <state x="587" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1590501452401">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="587" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1590501452401" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590500343953">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590500343953" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/springboot/blog/BlogApplicationTests.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/blog$BlogApplication.ic" NAME="BlogApplication Coverage Results" MODIFIED="1590332913130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
