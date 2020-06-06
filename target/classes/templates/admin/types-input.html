@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head th:replace="admin/_fragments :: head(~{::title})">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,33 +46,47 @@
   </div>
 
   <!--中间内容-->
-  <div  class="m-container-small m-padded-tb-big">
-    <div class="ui container">
-      <form action="#" method="post"  th:object="${type}" th:action="*{id}==null ? @{/admin/types} : @{/admin/types/{id}(id=*{id})} "  class="ui form">
-        <input type="hidden" name="id" th:value="*{id}">
-        <div class=" field">
-          <div class="ui left labeled input">
-            <label class="ui teal basic label">名称</label>
-            <input type="text" name="name" placeholder="分类名称" th:value="*{name}" >
-          </div>
-        </div>
+<!--  <div  class="m-container-small m-padded-tb-big">-->
+<!--&lt;!&ndash;    <div class="ui container">&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;      <form action="#" method="post"  th:object="" th:action=" "  class="ui form">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <input type="hidden" name="id" th:value="1">&ndash;&gt;-->
+<!--&lt;!&ndash;        <div class=" field">&ndash;&gt;-->
+<!--&lt;!&ndash;          <div class="ui left labeled input">&ndash;&gt;-->
+<!--&lt;!&ndash;            <label class="ui teal basic label">名称</label>&ndash;&gt;-->
+<!--&lt;!&ndash;            <input type="text" name="name" placeholder="分类名称" th:value="" >&ndash;&gt;-->
+<!--&lt;!&ndash;          </div>&ndash;&gt;-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
 
-        <div class="ui error message"></div>
-        <!--/*/
-        <div class="ui negative message" th:if="${#fields.hasErrors('name')}"  >
-          <i class="close icon"></i>
-          <div class="header">验证失败</div>
-          <p th:errors="*{name}">提交信息不符合规则</p>
-        </div>
-         /*/-->
-        <div class="ui right aligned container">
-          <button type="button" class="ui button" onclick="window.history.go(-1)" >返回</button>
-          <button class="ui teal submit button">提交</button>
-        </div>
+<!--        <div class="ui error message"></div>-->
+<!--        &lt;!&ndash;/*/-->
+<!--        <div class="ui negative message" th:if="${#fields.hasErrors('name')}"  >-->
+<!--          <i class="close icon"></i>-->
+<!--          <div class="header">验证失败</div>-->
+<!--          <p th:errors="*{name}">提交信息不符合规则</p>-->
+<!--        </div>-->
+<!--         /*/&ndash;&gt;-->
+<!--        <div class="ui right aligned container">-->
+<!--&lt;!&ndash;          <button type="button" class="ui button" onclick="window.history.go(-1)" >返回</button>&ndash;&gt;-->
+<!--          <button class="ui teal submit button">提交</button>-->
+<!--        </div>-->
 
-      </form>
+<!--&lt;!&ndash;      </form>&ndash;&gt;-->
+<!--    </div>-->
+<!--  </div>-->
+
+  <form action="#" method="post" th:action="@{/admin/types}">
+    <div >
+      <input type="text" align="center" name="name"> <label>名称</label>
     </div>
-  </div>
+    <div>
+
+      <button>提交</button>
+    </div>
+
+  </form>
+ 
+
+
 
   <br>
   <br>
@@ -126,25 +140,25 @@
 
   <script>
 
-    $('.menu.toggle').click(function () {
-      $('.m-item').toggleClass('m-mobile-hide');
-    });
+   $('.menu.toggle').click(function () {
+     $('.m-item').toggleClass('m-mobile-hide');
+   });
 
-    $('.ui.dropdown').dropdown({
-      on : 'hover'
-    });
+   $('.ui.dropdown').dropdown({
+     on : 'hover'
+   });
 
-    $('.ui.form').form({
-      fields : {
-        title : {
-          identifier: 'name',
-          rules: [{
-            type : 'empty',
-            prompt: '请输入分类名称'
-          }]
-        }
-      }
-    });
+   $('.ui.form').form({
+     fields : {
+       title : {
+         identifier: 'name',
+         rules: [{
+           type : 'empty',
+           prompt: '请输入分类名称'
+         }]
+       }
+     }
+   });
 
   </script>
 </body>
