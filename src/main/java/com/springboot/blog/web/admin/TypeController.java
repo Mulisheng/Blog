@@ -2,6 +2,7 @@ package com.springboot.blog.web.admin;
 
 import com.springboot.blog.po.Type;
 import com.springboot.blog.service.TypeService;
+import org.hibernate.dialect.MariaDB53Dialect;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
@@ -74,6 +75,79 @@ public class TypeController {
         }
 
         return "redirect:/admin/types";
+    }
+
+
+    @GetMapping("/types/{id}/update")
+    public String testGetEdit(@PathVariable Long id ,ModelAndView modelAndView,Type type,RedirectAttributes attributes,HttpServletResponse response)
+    {
+
+        Type t=typeService.getType(id);
+        attributes.addAttribute("editId",t.getId());
+        attributes.addAttribute("editName",t.getName());
+
+
+      modelAndView.setViewName("admin/types-update");
+
+
+        return "/admin/types-update";
+
+
+    }
+
+
+
+
+
+//    @PostMapping("/types/update")
+//    public String updateTypes(Type type, RedirectAttributes attributes,HttpServletResponse response)
+//    {
+//        System.out.println("进入post");
+//        Long id=type.getId();
+//        String name=type.getName();
+//        System.out.println(id);
+//        System.out.println(name);
+
+
+//        if (id != null)
+//        {
+//            if (!name.equals("") && typeService.getTypeByName(name) == null)
+//            {
+//
+//                typeService.updateType(id,type);
+//                return "redirect:/admin/types";
+//
+//            }else
+//            {
+//
+//                attributes.addFlashAttribute("message","标签已存在或标签不能为空");
+//                return "redirect:/admin/types";
+//            }
+//        }
+//        if (typeService.getType(id) == null)
+//        {
+//            attributes.addFlashAttribute("message","标签");
+//            return "redirect:/admin/types";
+//        }
+//        else
+//        {
+//            Type t=typeService.updateType(id,type);
+//            System.out.println(t.getName().toString());
+//            attributes.addFlashAttribute("message","修改成功");
+//
+//        }
+
+//        return "redirect:/admin/types-update";
+//    }
+
+
+
+    @GetMapping("/types/{id}/delete")
+    public  String delete(@PathVariable Long id,RedirectAttributes attributes)
+    {
+        typeService.deleteType(id);
+        attributes.addFlashAttribute("message","删除成功");
+        return  "redirect:/admin/types";
     }
 
 

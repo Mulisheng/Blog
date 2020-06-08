@@ -73,17 +73,19 @@
 <!--&lt;!&ndash;      </form>&ndash;&gt;-->
 <!--    </div>-->
 <!--  </div>-->
-
-  <form action="#" method="post" th:action="@{/admin/types}">
-    <div >
-      <input type="text" align="center" name="name"> <label>名称</label>
+<div align="center">
+  <form action="#" method="post" th:action="@{/admin/types}" >
+    <div class="ui left labeled input">
+        <input type="text" name="name" placeholder="分类名称" >
+        <label class="ui teal basic label">名称</label>
+        <button class="ui teal submit button">提交</button>
     </div>
-    <div>
 
-      <button>提交</button>
-    </div>
+
+
 
   </form>
+</div>
  
 
 
