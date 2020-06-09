@@ -19,6 +19,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 @Controller
 @RequestMapping("/admin")
@@ -52,9 +53,6 @@ public class TypeController {
 
         System.out.println(name);
 
-//
-//        Type type1=typeService.getTypeByName(type.getName());
-//        System.out.println(type1.getName());
 
         if (name.equals(""))
         {
@@ -79,15 +77,17 @@ public class TypeController {
 
 
     @GetMapping("/types/{id}/update")
-    public String testGetEdit(@PathVariable Long id ,ModelAndView modelAndView,Type type,RedirectAttributes attributes,HttpServletResponse response)
+    public String testGetEdit(@PathVariable Long id , ModelAndView modelAndView, Type type, RedirectAttributes attributes, HttpSession session)
     {
 
         Type t=typeService.getType(id);
-        attributes.addAttribute("editId",t.getId());
-        attributes.addAttribute("editName",t.getName());
+        session.setAttribute("typesId",t.getId());
+        session.setAttribute("typesName",t.getName());
 
+        System.out.println(session.getAttribute("typesName"));
 
       modelAndView.setViewName("admin/types-update");
+
 
 
         return "/admin/types-update";
@@ -96,49 +96,31 @@ public class TypeController {
     }
 
 
+    @PostMapping("/types/{id}/update")
+    public String editTypes(@PathVariable Long id,Type type,RedirectAttributes attributes)
+    {
+        System.out.println("types-update");
+        System.out.println(type.getName());
+        String name=type.getName();
+        if (typeService.getTypeByName(name) == null && !name.equals(""))
+        {
+            typeService.updateType(id,type);
+            attributes.addFlashAttribute("message","修改成功");
+            return "redirect:/admin/types";
+        }else
+        {
+            attributes.addFlashAttribute("message","修改失败");
+
+        }
+
+        return "redirect:/admin/types";
+    }
 
 
 
-//    @PostMapping("/types/update")
-//    public String updateTypes(Type type, RedirectAttributes attributes,HttpServletResponse response)
-//    {
-//        System.out.println("进入post");
-//        Long id=type.getId();
-//        String name=type.getName();
-//        System.out.println(id);
-//        System.out.println(name);
 
 
-//        if (id != null)
-//        {
-//            if (!name.equals("") && typeService.getTypeByName(name) == null)
-//            {
-//
-//                typeService.updateType(id,type);
-//                return "redirect:/admin/types";
-//
-//            }else
-//            {
-//
-//                attributes.addFlashAttribute("message","标签已存在或标签不能为空");
-//                return "redirect:/admin/types";
-//            }
-//        }
-//        if (typeService.getType(id) == null)
-//        {
-//            attributes.addFlashAttribute("message","标签");
-//            return "redirect:/admin/types";
-//        }
-//        else
-//        {
-//            Type t=typeService.updateType(id,type);
-//            System.out.println(t.getName().toString());
-//            attributes.addFlashAttribute("message","修改成功");
-//
-//        }
 
-//        return "redirect:/admin/types-update";
-//    }
 
 
 

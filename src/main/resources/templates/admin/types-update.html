@@ -75,9 +75,9 @@
 <!--  </div>-->
 
 <div align="center">
-    <form action="#" method="post" th:action="@{/admin/types/update}" >
+    <form action="#" method="post"  th:action="@{/admin/types/{id}/update(id=${session.typesId})}" >
         <div class="ui left labeled input">
-            <input type="text" name="name" placeholder="分类名称" >
+            <input type="text" name="name" placeholder="分类名称" th:value="${session.typesName}" >
             <label class="ui teal basic label">名称</label>
             <button class="ui teal submit button">提交</button>
         </div>
